@@ -1,3 +1,4 @@
+
 // Question 1
 function describeValue (value){
     return `${typeof value} | ${ value ? 'truthy' : 'falsy'}`;
@@ -17,7 +18,8 @@ function describeValue (value){
 // console.log(describeValue(null))	// "object | falsy"
 
 
-// -----------------------------------------------------------------------------
+
+//==========================================================================
 
 
 
@@ -46,7 +48,8 @@ function getDayType(value) {
 
 
 
-// -----------------------------------------------------------------------------
+//==========================================================================
+
 
 
 // Question 3
@@ -73,7 +76,8 @@ function validateUsername (username) {
 // console.log(validateUsername("Admin_Rahim"))	// "Reserved Word"
 
 
-// -----------------------------------------------------------------------------
+
+//==========================================================================
 
 
 // Question 4
@@ -94,7 +98,9 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
 // console.log(getCngFare(5, true, 10));	// 138	115 + 20%
 
 
-//-----------------------------------------------------------------------------
+
+//==========================================================================
+
 
 // Question 5
 const getChaseVerdict = (target, scored, ballsLeft) =>{
