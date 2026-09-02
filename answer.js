@@ -1,5 +1,4 @@
-
-// Question 1
+//Question No. 1
 function describeValue (value){
     return `${typeof value} | ${ value ? 'truthy' : 'falsy'}`;
 } 
@@ -20,10 +19,11 @@ function describeValue (value){
 
 
 //==========================================================================
+//==========================================================================
 
 
 
-// Question 2
+//Question No. 2
 function getDayType(value) {
     let day = value.toLowerCase();
     switch(day) {
@@ -49,10 +49,11 @@ function getDayType(value) {
 
 
 //==========================================================================
+//==========================================================================
 
 
 
-// Question 3
+//Question No. 3
 function validateUsername (username) {
     if (username.length < 4 ) 
         return 'Too Short';
@@ -78,9 +79,11 @@ function validateUsername (username) {
 
 
 //==========================================================================
+//==========================================================================
 
 
-// Question 4
+
+//Question No. 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
     const distanceFare = distance <= 2? 50: 50 + (distance - 2) * 15;
     const waitingFare = waitingMinutes * 2;
@@ -100,9 +103,11 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
 
 
 //==========================================================================
+//==========================================================================
 
 
-// Question 5
+
+//Question No. 5
 const getChaseVerdict = (target, scored, ballsLeft) =>{
     const runsRequired = target - scored;
 
