@@ -1,3 +1,4 @@
+// Question 1
 function describeValue (value){
     return `${typeof value} | ${ value ? 'truthy' : 'falsy'}`;
 } 
@@ -16,6 +17,11 @@ function describeValue (value){
 // console.log(describeValue(null))	// "object | falsy"
 
 
+// -----------------------------------------------------------------------------
+
+
+
+// Question 2
 function getDayType(value) {
     let day = value.toLowerCase();
     switch(day) {
@@ -38,6 +44,12 @@ function getDayType(value) {
 // console.log(getDayType("MONDAY")); // "Working Day"
 // console.log(getDayType("Bandarban")); // "Invalid Day"
 
+
+
+// -----------------------------------------------------------------------------
+
+
+// Question 3
 function validateUsername (username) {
     if (username.length < 4 ) 
         return 'Too Short';
@@ -61,6 +73,10 @@ function validateUsername (username) {
 // console.log(validateUsername("Admin_Rahim"))	// "Reserved Word"
 
 
+// -----------------------------------------------------------------------------
+
+
+// Question 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
     const distanceFare = distance <= 2? 50: 50 + (distance - 2) * 15;
     const waitingFare = waitingMinutes * 2;
@@ -78,6 +94,9 @@ function getCngFare(distance, isNight = false, waitingMinutes = 0) {
 // console.log(getCngFare(5, true, 10));	// 138	115 + 20%
 
 
+//-----------------------------------------------------------------------------
+
+// Question 5
 const getChaseVerdict = (target, scored, ballsLeft) =>{
     const runsRequired = target - scored;
 
